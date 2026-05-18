@@ -1,11 +1,10 @@
 # IE303 - Công Nghệ Java - Bài tập thực hành
 
-Repository này lưu các bài tập thực hành môn **IE303 - Công Nghệ Java**.
-
 ## Thông tin sinh viên
 - **Họ và tên:** Bùi Đức Huy
 - **MSSV:** 23520591
-- **Lớp:** IE303.Q22
+- **Lớp:** IE303.Q22.2
+- **Giảng viên hướng dẫn:** Nguyễn Hữu Nghĩa
 
 ## Cấu trúc thư mục hiện tại
 ```text
@@ -23,6 +22,11 @@ Repository này lưu các bài tập thực hành môn **IE303 - Công Nghệ Ja
 │   ├── Main.java
 │   ├── Pipe.java
 │   └── assignments.ipynb
+├── Lab03/
+│   ├── Main.java
+│   ├── assignment.ipynb
+│   ├── img1.png -> img6.png
+│   └── sample.png
 └── README.md
 ```
 
@@ -30,19 +34,32 @@ Repository này lưu các bài tập thực hành môn **IE303 - Công Nghệ Ja
 
 ### 1. Lab01
 - Các file được viết độc lập theo từng bài.
-- Có thể biên dịch/chạy từng file bằng lệnh:
+- Di chuyển vào thư mục `Lab01`, có thể biên dịch/chạy từng file bằng lệnh:
 
 ```bash
+cd Lab01
 javac bai01.java
 java bai01
 ```
 
 ### 2. Lab02 (Flappy Bird)
-- Di chuyển vào thư mục `Lab02`.
-- Biên dịch và chạy chương trình:
+- Game Flappy Bird đơn giản với Java Swing.
+- Di chuyển vào thư mục `Lab02`, biên dịch và chạy chương trình:
 
 ```bash
+cd Lab02
 javac *.java
+java Main
+```
+
+### 3. Lab03 (Website Layout với Swing)
+- Thiết kế giao diện trang web bán sản phẩm bằng Java Swing.
+- Cấu trúc giao diện hoàn chỉnh, bao gồm tính năng click chọn sản phẩm bên danh sách (cột phải) để thay đổi hình ảnh hiển thị (cột trái) kèm hiệu ứng chuyển đổi mượt mà (Fade Animation).
+- Di chuyển vào thư mục `Lab03`, biên dịch và chạy chương trình:
+
+```bash
+cd Lab03
+javac Main.java
 java Main
 ```
 
