@@ -27,6 +27,13 @@
 │   ├── assignment.ipynb
 │   ├── img1.png -> img6.png
 │   └── sample.png
+├── Lab04/
+│   ├── Main.java
+│   ├── run.bat
+│   ├── sqlite-jdbc.jar
+│   ├── slf4j-api.jar
+│   ├── slf4j-simple.jar
+│   └── products.db
 └── README.md
 ```
 
@@ -61,6 +68,17 @@ java Main
 cd Lab03
 javac Main.java
 java Main
+```
+
+### 4. Lab04 (Tích hợp CSDL SQLite vào Swing)
+- Xây dựng cơ sở dữ liệu lưu thông tin sản phẩm và truy vấn sản phẩm.
+- Giao diện được nâng cấp hiện đại (Rounded buttons, Vector icons, hiệu ứng chuyển ảnh trượt/mờ 60FPS).
+- Tích hợp tính năng thêm sản phẩm mới lưu trực tiếp vào CSDL và thanh công cụ tìm kiếm sản phẩm.
+- Di chuyển vào thư mục `Lab04` và sử dụng script `run.bat` để chạy (Script đã bao gồm tự động build và link các thư viện SQLite, SLF4J):
+
+```cmd
+cd Lab04
+run.bat
 ```
 
 ## Ghi chú
